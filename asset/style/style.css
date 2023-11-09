@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    color-scheme: light only;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+#logo {
+  font-size: 18px;
+}
+
+nav ul li a {
+  font-size: 13px;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+#menu-toggle::after{
+    color: white;
+}
+
+#wrap-profile {
+  margin-top: 30%;
+}
+
+img {
+  border-radius: 50%;
+  width: 180px;
+}
+
+#form {
+  margin-top: 2rem;
+}
+
+#form a {
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
